@@ -1,4 +1,5 @@
 import { IsString, MinLength, MaxLength, Matches, IsNotEmpty } from "class-validator";
+import { Task } from "src/tasks/task.entity";
 
 export class AuthCredsDto {
     @IsString()
